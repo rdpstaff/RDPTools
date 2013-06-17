@@ -1,0 +1,24 @@
+[submodule "TaxonomyTree"]
+	path = TaxonomyTree
+	url = git://github.com/rdpstaff/TaxonomyTree
+[submodule "SequenceMatch"]
+	path = SequenceMatch
+	url = https://github.com/rdpstaff/SequenceMatch.git
+[submodule "ReadSeq"]
+	path = ReadSeq
+	url = https://github.com/rdpstaff/ReadSeq.git
+[submodule "classifier"]
+	path = classifier
+	url = https://github.com/rdpstaff/classifier.git
+[submodule "Clustering"]
+	path = Clustering
+	url = https://github.com/rdpstaff/Clustering
+[submodule "AlignmentTools"]
+	path = AlignmentTools
+	url = https://github.com/rdpstaff/AlignmentTools
+[submodule "ProbeMatch"]
+	path = ProbeMatch
+	url = https://github.com/rdpstaff/ProbeMatch
+[submodule "SeqFilters"]
+	path = SeqFilters
+	url = https://github.com/rdpstaff/SeqFilters

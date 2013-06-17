@@ -1,0 +1,8 @@
+Metaproject for RDP Tools
+
+This project includes the core modules from the RDP (Classifier, Clustering, SequenceMatch, InitialProcessing) and all their dependencies.  After cloning this repository enter the commands
+
+$ git submodule init
+$ git submodule update
+
+then type 'make'
