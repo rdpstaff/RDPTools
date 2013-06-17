@@ -6,3 +6,5 @@ $ git submodule init
 $ git submodule update
 
 then type 'make'
+
+Building depends on 'make' and 'ant'
