@@ -22,3 +22,6 @@
 [submodule "SeqFilters"]
 	path = SeqFilters
 	url = https://github.com/rdpstaff/SeqFilters
+[submodule "Framebot"]
+	path = Framebot
+	url = https://github.com/rdpstaff/Framebot
