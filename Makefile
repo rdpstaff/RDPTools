@@ -3,7 +3,13 @@ MAIN_JARS=Clustering SequenceMatch classifier
 .PHONY: all
 .DEFAULT: all
 
-all: Clustering/dist/Clustering.jar SequenceMatch/dist/SequenceMatch.jar classifier/dist/classifier.jar
+all: deploy
+
+deploy: lib Clustering/dist/Clustering.jar SequenceMatch/dist/SequenceMatch.jar classifier/dist/classifier.jar
+	cp Clustering/dist/Clustering.jar SequenceMatch/dist/SequenceMatch.jar classifier/dist/classifier.jar ./; cp -r */dist/lib/* lib/
+
+lib:
+	mkdir lib
 
 Clustering/dist/Clustering.jar: Clustering/nbproject/build-impl.xml
 	ant -f Clustering/build.xml jar
