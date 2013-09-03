@@ -12,3 +12,8 @@ Jars are placed in the main directory, you can run them with
 java -jar classifier.jar|Clustering.jar|...
 
 Building depends on 'make' and 'ant'
+
+Usage
+
+See each individual tool page or fungene_pipeline (https://github.com/rdpstaff/fungene_pipeline) to run one or multiple tools.
+
