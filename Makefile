@@ -6,7 +6,7 @@ MAIN_JARS=Clustering SequenceMatch classifier
 all: deploy
 
 deploy: lib Clustering/dist/Clustering.jar SequenceMatch/dist/SequenceMatch.jar classifier/dist/classifier.jar Framebot/dist/FrameBot.jar
-	cp Framebot/dist/FrameBot.jar Clustering/dist/Clustering.jar SequenceMatch/dist/SequenceMatch.jar classifier/dist/classifier.jar ./; cp -r */dist/lib/* lib/
+	-(cp Framebot/dist/FrameBot.jar Clustering/dist/Clustering.jar SequenceMatch/dist/SequenceMatch.jar classifier/dist/classifier.jar ./; cp -r */dist/lib/* lib/)
 
 lib:
 	mkdir lib
