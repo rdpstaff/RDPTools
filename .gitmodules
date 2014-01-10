@@ -25,3 +25,6 @@
 [submodule "Framebot"]
 	path = Framebot
 	url = https://github.com/rdpstaff/Framebot
+[submodule "FungeneUtils"]
+        path = FungeneUtils
+        url = https://github.com/rdpstaff/FungeneUtils
