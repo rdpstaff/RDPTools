@@ -5,8 +5,8 @@ MAIN_JARS=Clustering SequenceMatch classifier
 
 all: deploy
 
-deploy: lib Clustering/dist/Clustering.jar SequenceMatch/dist/SequenceMatch.jar classifier/dist/classifier.jar Framebot/dist/FrameBot.jar
-	-(cp Framebot/dist/FrameBot.jar Clustering/dist/Clustering.jar SequenceMatch/dist/SequenceMatch.jar classifier/dist/classifier.jar ./; cp -r */dist/lib/* lib/)
+deploy: lib Clustering/dist/Clustering.jar SequenceMatch/dist/SequenceMatch.jar classifier/dist/classifier.jar Framebot/dist/FrameBot.jar AbundanceStats/dist/AbundanceStats.jar
+	-(cp Framebot/dist/FrameBot.jar Clustering/dist/Clustering.jar SequenceMatch/dist/SequenceMatch.jar classifier/dist/classifier.jar AbundanceStats/dist/AbundanceStats.jar ./; cp -r */dist/lib/* lib/)
 
 lib:
 	mkdir lib
@@ -22,3 +22,6 @@ SequenceMatch/dist/SequenceMatch.jar: SequenceMatch/nbproject/build-impl.xml
 
 classifier/dist/classifier.jar: classifier/nbproject/build-impl.xml
 	ant -f classifier/build.xml jar
+
+AbundanceStats/dist/classifier.jar: AbundanceStats/nbproject/build-impl.xml
+	ant -f AbundanceStats/build.xml jar

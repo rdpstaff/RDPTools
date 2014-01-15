@@ -25,3 +25,6 @@
 [submodule "Framebot"]
 	path = Framebot
 	url = https://github.com/rdpstaff/Framebot
+[submodule "AbundanceStats"]
+	path = AbundanceStats
+	url = https://github.com/rdpstaff/AbundanceStats/
