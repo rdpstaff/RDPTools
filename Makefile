@@ -23,5 +23,5 @@ SequenceMatch/dist/SequenceMatch.jar: SequenceMatch/nbproject/build-impl.xml
 classifier/dist/classifier.jar: classifier/nbproject/build-impl.xml
 	ant -f classifier/build.xml jar
 
-AbundanceStats/dist/classifier.jar: AbundanceStats/nbproject/build-impl.xml
+AbundanceStats/dist/AbundanceStats.jar: AbundanceStats/nbproject/build-impl.xml
 	ant -f AbundanceStats/build.xml jar
