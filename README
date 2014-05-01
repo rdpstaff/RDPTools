@@ -16,4 +16,5 @@ Building depends on 'make' and 'ant'
 Usage
 
 See each individual tool page or fungene_pipeline (https://github.com/rdpstaff/fungene_pipeline) to run one or multiple tools.
+The RDP Paired-end Reads Assembler used in the publication (Cole et al., 2014 Nucl. Acids Res.) is available at http://rdp.cme.msu.edu/misc/resources.jsp
 
