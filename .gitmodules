@@ -15,7 +15,7 @@
 	url = https://github.com/rdpstaff/Clustering
 [submodule "AlignmentTools"]
 	path = AlignmentTools
-	url = https://github.com/rdpstaff/AlignmentTools
+	url = https://github.com/rdpstaff/AlignmentTools.git
 [submodule "ProbeMatch"]
 	path = ProbeMatch
 	url = https://github.com/rdpstaff/ProbeMatch
