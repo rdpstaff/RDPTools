@@ -28,3 +28,12 @@
 [submodule "AbundanceStats"]
 	path = AbundanceStats
 	url = https://github.com/rdpstaff/AbundanceStats/
+[submodule "Xander-HMMgs"]
+	path = Xander-HMMgs
+	url = https://github.com/rdpstaff/Xander-HMMgs.git
+[submodule "KmerFilter"]
+	path = KmerFilter
+	url = https://github.com/rdpstaff/KmerFilter.git
+[submodule "Xander_assembler"]
+	path = Xander_assembler
+	url = https://github.com/rdpstaff/Xander_assembler.git
