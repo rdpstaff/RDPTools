@@ -1,6 +1,6 @@
 Metaproject for RDP Tools
 
-This project includes the core modules from the RDP (Classifier, Clustering, SequenceMatch, ProbeMatch, InitialProcessing, FrameBot, ReadSeq) and all their dependencies. Don't click "Download ZIP" button, instead, copy the cloneURL and type 
+This project includes the modules from the RDP (Classifier, Clustering, SequenceMatch, ProbeMatch, InitialProcessing, FrameBot, ReadSeq, Xander) and all their dependencies. Don't click "Download ZIP" button, instead, copy the cloneURL and type 
 git clone cloneURL
 
 After cloning this repository enter the commands
