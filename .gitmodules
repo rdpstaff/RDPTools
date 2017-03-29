@@ -37,3 +37,6 @@
 [submodule "Xander_assembler"]
 	path = Xander_assembler
 	url = https://github.com/rdpstaff/Xander_assembler.git
+[submodule "PrimerDesign"]
+	path = PrimerDesign
+	url = https://github.com/rdpstaff/PrimerDesign.git
