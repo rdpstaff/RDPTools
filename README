@@ -15,7 +15,7 @@ Jars are placed in the main directory, you can run them with
 
 java -jar classifier.jar|Clustering.jar|...
 
-Building depends on 'make' and 'ant'. 
+Building depends on 'make' and 'ant 1.9'. 
 
 ## Update Existing Project
 $ git pull
