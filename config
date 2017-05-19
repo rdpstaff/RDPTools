@@ -1,6 +1,0 @@
-#What is your operating system (options: mac or linux)
-os=
-#Complete location of the Java JNI include directory
-java_jni_include=
-#Complete location of the Java JNI operating system specific directory. This will be in same directory as java_jni_include.
-java_jni_include_os=
